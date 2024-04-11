@@ -1,0 +1,82 @@
+{
+  "projects": [
+      {
+          "id": 1,
+          "projectName": "Website Redesign",
+          "projectManager": "Alice Smith",
+          "status": "At Risk",
+          "lastUpdate": "2024-04-10T14:30:00Z",
+          "resources": ["UI/UX", "Frontend"],
+          "projectTimeline": {
+              "startDate": "2024-03-01",
+              "endDate": "2024-06-30"
+          },
+          "estimation": "15"
+      },
+      {
+          "id": 2,
+          "projectName": "Mobile App Development",
+          "projectManager": "Bob Johnson",
+          "status": "On Track",
+          "lastUpdate": "2024-04-09T10:15:00Z",
+          "resources": ["Frontend", "Backend", "QA"],
+          "projectTimeline": {
+              "startDate": "2023-09-01",
+              "endDate": "2024-02-28"
+          },
+          "estimation": "25"
+      },
+      {
+          "id": 3,
+          "projectName": "E-commerce Platform",
+          "projectManager": "Carol White",
+          "status": "Potential Risk",
+          "lastUpdate": "2024-04-10T09:45:00Z",
+          "resources": ["UI/UX", "Frontend", "Backend", "BA"],
+          "projectTimeline": {
+              "startDate": "2024-07-01",
+              "endDate": "2024-12-31"
+          },
+          "estimation": "50"
+      },
+      {
+          "id": 4,
+          "projectName": "Data Migration",
+          "projectManager": "David Harris",
+          "status": "On Hold",
+          "lastUpdate": "2024-04-08T16:30:00Z",
+          "resources": ["BA", "Backend"],
+          "projectTimeline": {
+              "startDate": "2024-01-15",
+              "endDate": "2024-05-15"
+          },
+          "estimation": "20"
+      },
+      {
+          "id": 5,
+          "projectName": "Cloud Infrastructure Setup",
+          "projectManager": "Emma Green",
+          "status": "At Risk",
+          "lastUpdate": "2024-04-10T11:00:00Z",
+          "resources": ["Backend", "DevOps"],
+          "projectTimeline": {
+              "startDate": "2024-03-15",
+              "endDate": "2024-08-31"
+          },
+          "estimation": "35"
+      },
+      {
+        "id": 6,
+        "projectName": "Graphic Designing",
+        "projectManager": "Chris Green",
+        "status": "On Track",
+        "lastUpdate": "2024-04-10T11:00:00Z",
+        "resources": ["Backend", "DevOps"],
+        "projectTimeline": {
+            "startDate": "2024-06-15",
+            "endDate": "2024-09-31"
+        },
+        "estimation": "145"
+    }
+  ]
+}

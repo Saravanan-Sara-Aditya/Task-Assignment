@@ -1,38 +1,158 @@
-.App {
+.radio-button-wrapper .ant-radio-button-wrapper {
+  margin-bottom: 5px;
+}
+
+.radio-button-wrapper .ant-radio-button-wrapper-checked {
+  background-color: #fff;
+  
+  color: #8a2be2;
+  
+  border: 0.5px solid #8a2be2 !important;
+  font-weight: 500;
+}
+
+.radio-button-wrapper:hover .ant-radio-button-wrapper-checked:hover {
+  background-color: #fff;
+  
+  color: #8a2be2;
+  
+  border: 0.5px solid #8a2be2 !important;
+  font-weight: 500;
+}
+
+.radio-button-wrapper .ant-radio-button-wrapper:not(.ant-radio-button-wrapper-checked) {
+  background-color: #e9edf5;
+  
+  color: #495162;
+  
+  font-weight: 500;
+}
+
+.radio-button-wrapper .ant-radio-button-wrapper:not(.ant-radio-button-wrapper-checked):hover {
+  background-color: #ffffff;
+ 
+}
+
+
+.radio-switch {
+  display: inline-flex;
+  justify-content: start;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 2px;
+
+}
+
+
+.radio-switch input[type="radio"] {
+  display: none;
+  border-radius: 10px;
+}
+
+.radio-switch label {
+  padding: 2px 20px;
+  background-color: #eee;
+  cursor: pointer;
+  display: block !important;
+  transition: background-color 0.3s;
+}
+
+.radio-switch input[type="radio"]:checked+label {
+  background-color: #fff;
+  color: #8a2be2;
+  border: 0.5px solid #f3f3f3 !important;
+  border-radius: 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #8a2be2;
+ 
+  border-color: #8a2be2;
+ 
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  border-color: #8a2be2;
+}
+
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #8a2be2;
+}
+
+.ant-table-cell {
+  text-align: center !important;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-cell,
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-tbody>tr>th,
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-tbody>tr>td,
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper tfoot>tr>th,
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper tfoot>tr>td {
+  position: relative;
+  padding: 8px 16px !important;
+  overflow-wrap: break-word;
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-thead>tr>td {
+  position: relative;
+  color: #464f60;
+  font-weight: 500 !important;
   text-align: center;
+  background: #f8fafc;
+  border-bottom: 1px solid #f8fafc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:where(.css-dev-only-do-not-override-1kuana8).ant-table-wrapper .ant-table-tbody>tr>td {
+  color: "#8a2be2";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.ant-input-search :where(.css-dev-only-do-not-override-1kuana8).ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+  border-start-start-radius: 0px !important;
+  border-end-start-radius: 0px !important;
+}
+
+.ant-modal-footer {
+  display: none !important;
+}
+
+.modal-footer {
+  text-align: end;
+  background: transparent;
+  margin-top: 12px;
+  padding: 0;
+  border-top: none;
+  border-radius: 0;
+}
+
+.light-grey {
+  background-color: #e9edf5;
+}
+
+@media (min-width:1200px) {
+  .tab-large-screen {
+    width: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+:where(.css-dev-only-do-not-override-1kuana8).ant-collapse>.ant-collapse-item>.ant-collapse-header {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 0px !important;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 1.5714285714285714;
+  cursor: pointer;
+  transition: all 0.3s, visibility 0s;
+  margin-left: 5px !important;
 }
